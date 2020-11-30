@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{8BD90F69-A8DC-4A09-B30F-B05FDD359FFA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Amr</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;AMR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);MMS_IO;</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;AMR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);MMS_IO;</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;AMR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;AMR_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AmrPlayDll\AmrPlayer.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\agc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\autocorr.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\az_lsp.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\a_refl.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\basic_op.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\bgnscd.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\bits2prm.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\b_cn_cod.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\c1035pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\c2_11pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\c2_9pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\c3_14pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\c4_17pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\c8_31pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\calc_cor.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\calc_en.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\cbsearch.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\cl_ltp.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\cnst.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\cnst_vad.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\cod_amr.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\convolve.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\copy.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\cor_h.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\count.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\c_g_aver.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d1035pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d2_11pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d2_9pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d3_14pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d4_17pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d8_31pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_amr.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_gain.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_lag3.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_lag6.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\dtx_dec.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\dtx_enc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d_gain_c.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d_gain_p.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d_homing.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\d_plsf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\ec_gains.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\enc_lag3.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\enc_lag6.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\ex_ctrl.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\e_homing.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\frame.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\gain_q.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\gc_pred.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\gmed_n.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\g_adapt.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\g_code.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\g_pitch.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\hp_max.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\inter_36.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\int_lpc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\int_lsf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\inv_sqrt.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\lag_wind.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\levinson.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\log2.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\lpc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\lsfwt.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp_avg.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp_az.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp_lsf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\mac_32.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\mode.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\n_proc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\ol_ltp.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\oper_32b.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\ph_disp.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\pitch_fr.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\pitch_ol.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\post_pro.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\pow2.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\pred_lt.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\preemph.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\pre_big.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\pre_proc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\prm2bits.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\pstfilt.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\p_ol_wgh.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\qgain475.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\qgain795.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\qua_gain.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\q_gain_c.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\q_gain_p.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\q_plsf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\reorder.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\residu.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\s10_8pf.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\set_sign.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\set_zero.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\sid_sync.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\spreproc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\spstproc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\sp_dec.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\sp_enc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\sqrt_l.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\strfunc.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\syn_filt.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\ton_stab.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\typedef.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\typedefs.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\vad.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\vad1.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\vad2.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\vadname.h" />
+    <ClInclude Include="..\AmrPlayDll\AMR\weight_a.h" />
+    <ClInclude Include="..\AmrPlayDll\decoder\AMRFileDecoder.h" />
+    <ClInclude Include="..\AmrPlayDll\targetver.h" />
+    <ClInclude Include="..\AmrPlayDll\WaveDef.h" />
+    <ClInclude Include="..\AmrPlayDll\WavePlayer.h" />
+    <ClInclude Include="Amr.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AmrPlayDll\AmrPlayer.cpp" />
+    <ClCompile Include="..\AmrPlayDll\AMR\agc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\autocorr.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\az_lsp.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\a_refl.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\basicop2.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\bgnscd.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\bits2prm.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\b_cn_cod.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\c1035pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\c2_11pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\c2_9pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\c3_14pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\c4_17pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\c8_31pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\calc_cor.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\calc_en.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\cbsearch.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\cl_ltp.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\coder.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\cod_amr.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\convolve.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\copy.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\cor_h.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\count.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\c_g_aver.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d1035pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d2_11pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d2_9pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d3_14pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d4_17pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d8_31pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\decoder.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_amr.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_gain.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_lag3.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_lag6.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\dtx_dec.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\dtx_enc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d_gain_c.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d_gain_p.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d_homing.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d_plsf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d_plsf_3.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\d_plsf_5.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\ec_gains.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\enc_lag3.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\enc_lag6.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\ex_ctrl.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\e_homing.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\gain_q.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\gc_pred.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\gmed_n.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\g_adapt.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\g_code.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\g_pitch.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\hp_max.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\inter_36.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\int_lpc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\int_lsf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\inv_sqrt.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lag_wind.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\levinson.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lflg_upd.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\log2.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lpc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lsfwt.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp_avg.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp_az.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp_lsf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\mac_32.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\n_proc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\ol_ltp.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\oper_32b.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\ph_disp.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\pitch_fr.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\pitch_ol.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\post_pro.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\pow2.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\pred_lt.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\preemph.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\pre_big.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\pre_proc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\prm2bits.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\pstfilt.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\p_ol_wgh.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\qgain475.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\qgain795.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\qua_gain.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\q_gain_c.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\q_gain_p.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\q_plsf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\q_plsf_3.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\q_plsf_5.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\reorder.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\residu.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\r_fft.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\s10_8pf.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\set_sign.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\set_zero.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\sid_sync.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\spreproc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\spstproc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\sp_dec.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\sp_enc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\sqrt_l.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\strfunc.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\syn_filt.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\ton_stab.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\vad1.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\vad2.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\vadname.c" />
+    <ClCompile Include="..\AmrPlayDll\AMR\weight_a.c" />
+    <ClCompile Include="..\AmrPlayDll\decoder\AMRFileDecoder.cpp" />
+    <ClCompile Include="..\AmrPlayDll\WavePlayer.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

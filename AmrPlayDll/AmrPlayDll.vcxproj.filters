@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="amr">
+      <UniqueIdentifier>{a70ae1bc-c4ba-433d-81ae-642cd53072b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="decoder">
+      <UniqueIdentifier>{ec241d91-5d4f-454a-a7d0-ca3646a09746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AmrPlayer.def">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="AMR\bitno.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\c2_11pf.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\c2_9pf.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\corrwght.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\d_homing.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\gains.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\gray.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\grid.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\inter_36.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\inv_sqrt.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\lag_wind.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\log2.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\lsp.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\lsp_lsf.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\makefile">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\makefile.sun">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\ph_disp.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\pow2.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\q_plsf_3.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\q_plsf_5.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\qgain475.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\qua_gain.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\readme.doc">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_do2.cod">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_do2.out">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_dos.cod">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_dos.inp">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_dos.out">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_un2.cod">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_un2.out">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_unx.cod">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_unx.inp">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\spch_unx.out">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\sqrt_l.tab">
+      <Filter>amr</Filter>
+    </None>
+    <None Include="AMR\window.tab">
+      <Filter>amr</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmrPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\amrplayer\AmrPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WavePlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\amrplayer\WavePlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\a_refl.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\agc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\autocorr.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\az_lsp.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\b_cn_cod.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\basic_op.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\bgnscd.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\bits2prm.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\c1035pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\c2_11pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\c2_9pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\c3_14pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\c4_17pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\c8_31pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\c_g_aver.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\calc_cor.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\calc_en.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\cbsearch.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\cl_ltp.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\cnst.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\cnst_vad.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\cod_amr.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\convolve.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\copy.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\cor_h.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\count.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d1035pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d2_11pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d2_9pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d3_14pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d4_17pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d8_31pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d_gain_c.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d_gain_p.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d_homing.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\d_plsf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\dec_amr.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\dec_gain.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\dec_lag3.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\dec_lag6.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\dtx_dec.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\dtx_enc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\e_homing.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\ec_gains.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\enc_lag3.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\enc_lag6.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\ex_ctrl.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\frame.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\g_adapt.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\g_code.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\g_pitch.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\gain_q.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\gc_pred.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\gmed_n.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\hp_max.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\int_lpc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\int_lsf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\inter_36.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\inv_sqrt.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\lag_wind.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\levinson.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\log2.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\lpc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\lsfwt.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\lsp.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\lsp_avg.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\lsp_az.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\lsp_lsf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\mac_32.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\mode.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\n_proc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\ol_ltp.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\oper_32b.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\p_ol_wgh.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\ph_disp.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\pitch_fr.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\pitch_ol.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\post_pro.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\pow2.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\pre_big.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\pre_proc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\pred_lt.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\preemph.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\prm2bits.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\pstfilt.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\q_gain_c.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\q_gain_p.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\q_plsf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\qgain475.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\qgain795.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\qua_gain.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\reorder.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\residu.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\s10_8pf.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\set_sign.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\set_zero.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\sid_sync.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\sp_dec.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\sp_enc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\spreproc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\spstproc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\sqrt_l.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\strfunc.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\syn_filt.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\ton_stab.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\typedef.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\typedefs.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\vad.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\vad1.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\vad2.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\vadname.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="AMR\weight_a.h">
+      <Filter>amr</Filter>
+    </ClInclude>
+    <ClInclude Include="decoder\AMRFileDecoder.h">
+      <Filter>decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\amrplayer\WaveDef.h">
+      <Filter>decoder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AMR\a_refl.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\agc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\autocorr.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\az_lsp.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\b_cn_cod.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\basicop2.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\bgnscd.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\bits2prm.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\c1035pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\c2_11pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\c2_9pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\c3_14pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\c4_17pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\c8_31pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\c_g_aver.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\calc_cor.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\calc_en.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\cbsearch.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\cl_ltp.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\cod_amr.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\coder.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\convolve.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\copy.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\cor_h.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\count.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d1035pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d2_11pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d2_9pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d3_14pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d4_17pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d8_31pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d_gain_c.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d_gain_p.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d_homing.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d_plsf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d_plsf_3.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\d_plsf_5.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\dec_amr.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\dec_gain.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\dec_lag3.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\dec_lag6.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\decoder.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\dtx_dec.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\dtx_enc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\e_homing.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\ec_gains.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\enc_lag3.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\enc_lag6.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\ex_ctrl.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\g_adapt.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\g_code.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\g_pitch.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\gain_q.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\gc_pred.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\gmed_n.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\hp_max.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\int_lpc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\int_lsf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\inter_36.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\inv_sqrt.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lag_wind.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\levinson.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lflg_upd.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\log2.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lpc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lsfwt.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lsp.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lsp_avg.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lsp_az.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\lsp_lsf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\mac_32.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\n_proc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\ol_ltp.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\oper_32b.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\p_ol_wgh.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\ph_disp.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\pitch_fr.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\pitch_ol.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\post_pro.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\pow2.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\pre_big.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\pre_proc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\pred_lt.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\preemph.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\prm2bits.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\pstfilt.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\q_gain_c.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\q_gain_p.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\q_plsf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\q_plsf_3.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\q_plsf_5.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\qgain475.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\qgain795.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\qua_gain.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\r_fft.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\reorder.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\residu.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\s10_8pf.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\set_sign.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\set_zero.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\sid_sync.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\sp_dec.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\sp_enc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\spreproc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\spstproc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\sqrt_l.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\strfunc.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\syn_filt.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\ton_stab.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\vad1.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\vad2.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\vadname.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="AMR\weight_a.c">
+      <Filter>amr</Filter>
+    </ClCompile>
+    <ClCompile Include="decoder\AMRFileDecoder.cpp">
+      <Filter>decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AmrPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WavePlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AMR\allmodes.txt">
+      <Filter>amr</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

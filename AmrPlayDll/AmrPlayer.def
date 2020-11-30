@@ -1,0 +1,10 @@
+LIBRARY amrplay
+
+EXPORTS
+Play
+Pause
+Resume
+Stop
+GetAudioLength
+SetVolume
+IsPlaying

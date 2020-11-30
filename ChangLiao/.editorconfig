@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA2008: 不要在未传递 TaskScheduler 的情况下创建任务
+dotnet_diagnostic.CA2008.severity = none

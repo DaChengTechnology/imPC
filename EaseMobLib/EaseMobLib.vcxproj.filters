@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\message">
+      <UniqueIdentifier>{82330f1d-5d41-48e0-9056-106981df3927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\message">
+      <UniqueIdentifier>{f0b714d9-2594-40dc-9b62-13244544e2fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EaseMobLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="emsbsase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMTextMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMFileMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMCmdMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMImageMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMLocationMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMVideoMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMVoiceMessageBody.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMMessage.h">
+      <Filter>头文件\message</Filter>
+    </ClInclude>
+    <ClInclude Include="EMError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMCallBack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMLoginInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMContactManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMConversation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMGroupInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMCursorResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMGroupManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMGroupSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMChatConfigs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EMChatManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EaseMobLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMTextMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMFileMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMCmdMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMImageMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMLocationMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMVideoMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMVoiceMessageBody.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMError.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMCallback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMContactManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMConversation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMGroupManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMMessage.cpp">
+      <Filter>源文件\message</Filter>
+    </ClCompile>
+    <ClCompile Include="EMClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMChatConfigs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMChatManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

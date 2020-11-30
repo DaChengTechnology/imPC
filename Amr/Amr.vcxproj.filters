@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\agc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\autocorr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\az_lsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\a_refl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\basic_op.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\bgnscd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\bits2prm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\b_cn_cod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\c1035pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\c2_11pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\c2_9pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\c3_14pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\c4_17pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\c8_31pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\calc_cor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\calc_en.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\cbsearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\cl_ltp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\cnst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\cnst_vad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\cod_amr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\convolve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\copy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\cor_h.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\count.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\c_g_aver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d1035pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d2_11pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d2_9pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d3_14pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d4_17pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d8_31pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_amr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_gain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_lag3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\dec_lag6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\dtx_dec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\dtx_enc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d_gain_c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d_gain_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d_homing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\d_plsf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\ec_gains.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\enc_lag3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\enc_lag6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\ex_ctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\e_homing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\gain_q.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\gc_pred.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\gmed_n.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\g_adapt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\g_code.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\g_pitch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\hp_max.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\inter_36.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\int_lpc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\int_lsf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\inv_sqrt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\lag_wind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\levinson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\log2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\lpc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\lsfwt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp_avg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp_az.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\lsp_lsf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\mac_32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\mode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\n_proc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\ol_ltp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\oper_32b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\ph_disp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\pitch_fr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\pitch_ol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\post_pro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\pow2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\pred_lt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\preemph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\pre_big.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\pre_proc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\prm2bits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\pstfilt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\p_ol_wgh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\qgain475.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\qgain795.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\qua_gain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\q_gain_c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\q_gain_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\q_plsf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\reorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\residu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\s10_8pf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\set_sign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\set_zero.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\sid_sync.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\spreproc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\spstproc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\sp_dec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\sp_enc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\sqrt_l.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\strfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\syn_filt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\ton_stab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\typedef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\typedefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\vad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\vad1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\vad2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\vadname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AMR\weight_a.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\decoder\AMRFileDecoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\AmrPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\WaveDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AmrPlayDll\WavePlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Amr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\agc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\autocorr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\az_lsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\a_refl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\basicop2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\bgnscd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\bits2prm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\b_cn_cod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\c1035pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\c2_11pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\c2_9pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\c3_14pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\c4_17pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\c8_31pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\calc_cor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\calc_en.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\cbsearch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\cl_ltp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\coder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\cod_amr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\convolve.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\copy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\cor_h.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\count.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\c_g_aver.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d1035pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d2_11pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d2_9pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d3_14pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d4_17pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d8_31pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\decoder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_amr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_gain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_lag3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\dec_lag6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\dtx_dec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\dtx_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d_gain_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d_gain_p.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d_homing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d_plsf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d_plsf_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\d_plsf_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\ec_gains.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\enc_lag3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\enc_lag6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\ex_ctrl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\e_homing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\gain_q.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\gc_pred.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\gmed_n.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\g_adapt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\g_code.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\g_pitch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\hp_max.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\inter_36.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\int_lpc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\int_lsf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\inv_sqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lag_wind.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\levinson.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lflg_upd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\log2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lpc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lsfwt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp_avg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp_az.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\lsp_lsf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\mac_32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\n_proc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\ol_ltp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\oper_32b.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\ph_disp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\pitch_fr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\pitch_ol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\post_pro.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\pow2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\pred_lt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\preemph.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\pre_big.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\pre_proc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\prm2bits.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\pstfilt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\p_ol_wgh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\qgain475.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\qgain795.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\qua_gain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\q_gain_c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\q_gain_p.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\q_plsf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\q_plsf_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\q_plsf_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\reorder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\residu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\r_fft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\s10_8pf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\set_sign.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\set_zero.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\sid_sync.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\spreproc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\spstproc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\sp_dec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\sp_enc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\sqrt_l.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\strfunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\syn_filt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\ton_stab.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\vad1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\vad2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\vadname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AMR\weight_a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\decoder\AMRFileDecoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\WavePlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AmrPlayDll\AmrPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
